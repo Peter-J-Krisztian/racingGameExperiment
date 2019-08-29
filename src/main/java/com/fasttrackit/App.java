@@ -22,5 +22,12 @@ public class App {
         secondCar.wheelCount = 4;
         secondCar.mileage = 8;
 
+        Engine ladaengine = new Engine();
+        ladaengine.manufacturor = "Lada";
+
+        Vehicle vehicle = new Vehicle();
+        vehicle.accelerate(5.1);
+        System.out.println("Hello");
+
     }
 }
